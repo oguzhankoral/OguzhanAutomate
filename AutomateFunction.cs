@@ -30,7 +30,7 @@ class AutomateFunction
       serverInfo = new ServerInfo() { url = speckleProjectData.SpeckleServerUrl }
     };
     var client = new Client(account);
-
+    var test = "a";
 
     // HACK needed for the objects kit to initialize
     var p = new Point();
